@@ -1,0 +1,154 @@
+@charset "UTF-8";
+/* ====================================== 
+contact
+=======================================*/
+.topic {
+    padding: 125px 0 0 0;
+}
+
+.area06 {
+    text-align: center;
+    padding: 42px 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.area06_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area06_txt {
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #505050;
+}
+
+.area06_txt2 {
+    font-family: serif;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #F03636;
+    padding: 9px 3px 0 0;
+}
+
+.area06_txt3 {
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #505050;
+}
+
+.form {
+    width: 230px;
+    margin: 0 auto;
+}
+
+.form section {
+    text-align: center;
+    padding: 0 0 15px 0;
+}
+
+h3 {
+    font-family: serif;
+    color: #505050;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+h3::after {
+    display: inline-block;
+    content: "*";
+    width: 15px;
+    height: 10px;
+    text-align: center;
+    color: #F03636;
+    font-size: 1.2rem;
+    margin-right: 5px;
+}
+
+.call::after {
+    display: none;
+}
+
+.group {
+    width: 100%;
+}
+
+input[type="text"], textarea {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 2px;
+    border: solid 1px #B7B3B3;
+    background: #ffffff;
+    text-align: left;
+    margin-top: 7px;
+    font-size: 1.5rem;
+}
+
+.form_box {
+    text-align: center;
+}
+
+.form__btn {
+    font-family: serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.2;
+    background-color: #B7B3B3;
+    border-radius: 18px;
+    padding: 10px 23px;
+    margin: 15px auto 90px;
+}
+
+/* pc */
+@media screen and (min-width: 769px) {
+    .topic {
+        padding: 200px 0 0 0;
+    }
+
+    .area06 {
+        padding: 75px 0 60px;
+    }
+
+    .area06_txt,
+    .area06_txt3 {
+        font-size: 1.6rem;
+    }
+
+    .area06_txt2 {
+        font-size: 1.4;
+    }
+
+    h3 {
+        font-size: 1.6rem;
+    }
+
+    .form {
+        width: 430px;
+    }
+
+    .form section {
+        padding: 0 0 35px 0;
+    }
+
+    input[type="text"], textarea {
+        padding: 18px 16px;
+        margin-top: 9px;
+    }
+
+    .form__btn {
+        font-size: 1.6rem;
+        border-radius: 32px;
+        padding: 18px 50px;
+        margin: 15px auto 120px;
+    }
+
+
+}
